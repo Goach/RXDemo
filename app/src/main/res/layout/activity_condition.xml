@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".CreateActivity">
+
+        <Button
+            android:id="@+id/btn_amb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+            android:text="amb" />
+
+        <Button
+            android:id="@+id/btn_defaultIfEmpty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+            android:text="defaultIfEmpty"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_skipUntil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:text="skipUntil" />
+
+        <Button
+            android:id="@+id/btn_skipWhile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:text="skipWhile" />
+
+        <Button
+            android:id="@+id/btn_takeUtil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:text="takeUtil" />
+
+        <Button
+            android:id="@+id/btn_takeWhile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:text="takeWhile" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

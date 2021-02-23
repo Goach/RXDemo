@@ -1,0 +1,9 @@
+Schedulers.io()
+
+IO = RxJavaPlugins.initIoScheduler(new IOTask());
+
+IoHolder.DEFAULT
+
+ Scheduler DEFAULT = new IoScheduler()
+
+ WORKER_THREAD_FACTORY = new RxThreadFactory(WORKER_THREAD_NAME_PREFIX, priority);
